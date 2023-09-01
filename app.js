@@ -1,6 +1,11 @@
 const express = require("express");
 const app = express();
+//const backgroundContainer = document.querySelector('.background-container');
+//const changeBackgroundButton = document.getElementById('changeBackground');
 const PORT = 3000;
+ 
+
+//backgroundContainer.style.backgroundImage = "url('path/to/new/images.jpeg')";
 
 // Serve static content from the "public" directory
 app.use(express.static("public"));

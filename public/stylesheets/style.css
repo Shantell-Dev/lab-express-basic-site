@@ -6,7 +6,8 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(../images/download.jpeg);
+    background-image: url('./images/images.jpeg');
+    background-size: cover;
 }
 
 header {
@@ -37,3 +38,12 @@ footer {
     background-color: #333;
     color: white;
 }
+
+.background-container {
+    background-image: url('/public/images/images.jpeg');
+    background-size: cover; /* Adjust to your needs */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Set the height to cover the viewport */
+    /* You can also add other styles to this container */
+}
+
